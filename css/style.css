@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    width: auto;
+}
+
+.bg {
+    background-color: #000000;
+    background-size: cover;
+    background-position: center center;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+}
+ 
+.has-text-shadow {
+    text-shadow: 3px 2px 2px black;
+} 
+
+.navbar-item {
+    font-size: larger;
+}
+
+.navbar .navbar-item:hover { 
+    background-color:rgba(0, 0, 0, 0) !important; 
+} 
